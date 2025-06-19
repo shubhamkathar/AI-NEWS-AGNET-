@@ -1,6 +1,8 @@
 Project Overview:
 This project is an AI-powered research assistant that automates the process of gathering and summarizing the latest information on any topic provided by the user. The user inputs a topic through a Streamlit frontend. This request is sent to a Flask backend API which uses a CrewAI multi-agent system. The agents use tools like Serper and BeautifulSoup to search for the latest web content and summarize the findings into a markdown report. The report is displayed on the frontend in a clean and readable format.
 
+![image alt]()
+
 Architecture Flow:
 
 The user enters a topic in the Streamlit UI.
