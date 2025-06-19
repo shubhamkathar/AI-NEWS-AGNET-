@@ -74,7 +74,7 @@ One challenge was handling the output from CrewAI, which by default returns obje
 Another challenge was coordinating the timing between agent task completion and reading the final report. I ensured the backend waits for the report file before returning a response.
 
 flowchart TD
-    A[User enters topic in Streamlit UI] --> B[POST request to Flask API /research]
+    A --> [User enters topic in Streamlit UI] --> B[POST request to Flask API /research]
     B --> C[Flask receives topic & date]
     C --> D[Call Reseach_crew().crew().kickoff()]
     D --> E[Agent 1: Researcher uses Serper + Web Scraping]
