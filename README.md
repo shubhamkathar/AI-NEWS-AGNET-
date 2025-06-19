@@ -59,6 +59,8 @@ streamlit run frontend.py
 
 Open browser at http://localhost:8501 and test the application.
 
+![image alt](https://github.com/shubhamkathar/AI-NEWS-AGNET-/blob/a19ba37db75e2576fb21b0cd0601a1d1d61a91d4/Streamlit%20to%20AI%20Report%20Generation%20Flowchart.jpg)
+
 Design Choices and Trade-offs:
 
 I chose Serper.dev as the web search tool because it offers a reliable and developer-friendly API for accessing Google search results, and has a free tier that works well for prototyping.
