@@ -1,0 +1,14 @@
+# Flask backend
+flask
+
+# Streamlit frontend
+streamlit
+requests
+
+# CrewAI and LLMs
+crewai
+crewai-tools
+
+# Environment variable handling
+python-dotenv
+
